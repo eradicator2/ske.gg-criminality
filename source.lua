@@ -334,7 +334,7 @@ local function fireRagebot(targetHead)
                 local zfklf_h = ReplicatedStorage:WaitForChild('Events'):WaitForChild('ZFKLF__H')
 
                 gnx_s:FireServer(tick(), spoofCode, tool, 'FDS9I83', startPos, {direction}, false)
-                zfklf_h:FireServer('\u{fffd}\u{fffd}\u{fffd}\u{fffd}\u{fffd}\u{fffd}', tool, spoofCode, 1, targetHead, endPos, direction)
+                zfklf_h:FireServer("🧈", tool, spoofCode, 1, targetHead, endPos, direction)
 
                 serverAmmo.Value = math.max(serverAmmo.Value - 1, 0)
                 hitmarker:Fire(targetHead)
