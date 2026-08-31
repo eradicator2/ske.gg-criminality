@@ -1,6 +1,6 @@
 --最佳ai使用者7273别闹
 -- == [Bypass] ==
-loadstring(game:HttpGet("https://pastefy.app/pDhoQmem/raw"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/esrB68Pc"))()
 
 --[[
     scoot ui library
